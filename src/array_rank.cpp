@@ -170,7 +170,6 @@ namespace spiritsaway::system::rank
 		}
 		catch (std::exception &e)
 		{
-			assert(false);
 			return false;
 		}
 		reset(temp_sorted_rank_info);
